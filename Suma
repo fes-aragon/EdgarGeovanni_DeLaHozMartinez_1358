@@ -1,0 +1,7 @@
+def sumalista(lista):
+    Suma = 0
+    for i in lista:
+        Suma = Suma + i
+    return Suma
+
+print(sumalista([3,5,2,1]))
